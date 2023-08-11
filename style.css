@@ -1,0 +1,92 @@
+
+.lower-card{
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+
+  .body{
+    padding: 0;
+    
+  }
+
+  .play-ball{
+    font-family: 'Playball', cursive;
+  }
+
+  .hero-card{
+    min-height: 42vh;
+    background-size: cover;
+    background-position: 20%;
+    background-image: url(https://images.unsplash.com/photo-1591754889489-5a59f1cea55a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fGNhciUyMHdpdGglMjBzdW5zZXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
+  }
+
+  .car-pic{
+    height: 35vh;
+    width: 26vw;
+  }
+
+  .sign-up{
+    backdrop-filter: blur(9px);
+  }
+
+  .box-parent{
+    position: relative;
+  }
+
+  .box-child{
+    position: absolute;
+    top: 14px;
+    right: -5px;
+    background-color: black;
+    color: white;
+  }
+
+  .class-one{
+    height: 20vh;
+  }
+
+  .class-two{
+    height:25vh;
+  }
+
+  .class-three{
+    height: 20vh;
+  }
+
+
+
+
+
+@media(max-width: 768px) { 
+  .class-one{
+    height: 34vh;
+  }
+  .class-two{
+    height: 28vh;
+  }
+  .class-three{
+    height: 25vh;
+  }
+  .car-pic{
+    height: 30vh;
+  }
+  .lower-card{
+    height: 99vh;
+  }
+  .box-parent{  
+    display: none;
+  }
+  .box-child{
+    display: none;
+  }
+  .car-pic{
+    height: 25vh;
+    width: 87vw;
+  }
+  .hero-card{
+    background-image: none;
+  }
+}
+
+       
