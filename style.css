@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.background-1{
+  padding: 5px;
+}
+
   .body{
     padding: 0;
     
@@ -66,7 +70,7 @@
     height: 28vh;
   }
   .class-three{
-    height: 25vh;
+    height: 29vh;
   }
   .car-pic{
     height: 30vh;
