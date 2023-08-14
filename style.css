@@ -79,10 +79,10 @@
     height: 99vh;
   }
   .box-parent{  
-    display: none;
+    position: unset;
   }
   .box-child{
-    display: none;
+    position: unset;
   }
   .car-pic{
     height: 25vh;
